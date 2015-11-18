@@ -163,23 +163,23 @@ h2{
 		width:100%;
 		border:none;
 		margin: 0px;
-		padding: 1%;
+		padding: 2%;
 	}
 	#one-true .col:nth-child(2){
 		width:100%;
 		border:none;
 		margin: 0px;
-		padding: 1%;
+		padding: 2%;
 	}
 	#one-true .col:nth-child(3){
 		width:100%;
 		border:none;
 		margin: 0px;
-		padding: 1%;
+		padding: 2%;
 	}
 	#img{
 	width: 100%;
-	padding:1%;
+	padding:2%;
 	}
 	.infoBar{
 		width:20%;
@@ -191,9 +191,9 @@ h2{
 	}
 	
 	.infoBar{
-		padding-left:1%;
+		padding-left:2%;
 	}
 	.last{
-		padding-right:1%;
+		padding-right:2%;
 	}
 }
