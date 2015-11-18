@@ -93,7 +93,7 @@ h2{
 	width: 20%;
 	float:left;
 	padding:1%;
-	border-left: 1px solid black;
+	/*border-left: 1px solid black;*/
 }
 
 .innerText furst_of_child{
@@ -101,10 +101,24 @@ h2{
 }
 #img{
 	float:left;
-	width: 36%;
+	width: 30%;
 	padding:1%;
 }
-
+#one-true { 
+	overflow: hidden; 
+	
+	}
+#one-true .col {
+  width: 22%;
+  padding: 30px 1% 0;
+  float: left;
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+#one-true .col:nth-child(1) { margin-left: 23%; border-left:1px solid black; }
+#one-true .col:nth-child(2) { margin-left: -44%; }
+#one-true .col:nth-child(3) { left: 0; border-left:1px solid black; }
+#one-true p { margin-bottom: 30px; } /* Bottom padding on col is busy */
 
 @media only screen  and (max-width : 1024px){
 	
@@ -140,10 +154,25 @@ h2{
 }
 	
 @media only screen  and (max-width : 640px){
-	.innerText{
-		width:100%;;
-	}
 	
+	#one-true .col:nth-child(1){
+		width:100%;
+		border:none;
+		margin: 0px;
+		padding: 1%;
+	}
+	#one-true .col:nth-child(2){
+		width:100%;
+		border:none;
+		margin: 0px;
+		padding: 1%;
+	}
+	#one-true .col:nth-child(3){
+		width:100%;
+		border:none;
+		margin: 0px;
+		padding: 1%;
+	}
 	#img{
 	width: 100%;
 	padding:1%;
@@ -154,6 +183,6 @@ h2{
 	}
 	.midle{
 		width: 60%;
-	
+		
 	}
 }
